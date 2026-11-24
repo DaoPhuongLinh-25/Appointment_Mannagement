@@ -1,0 +1,15 @@
+
+### 1. Thêm lịch hẹn
+POST http://localhost:8080/api/appointments
+Content-Type: application/json
+
+{
+  "title": "Họp nhóm bài tập Java",
+  "startTime": "2026-11-25T09:00:00",
+  "endTime": "2026-11-25T10:00:00",
+  "location": "Phòng học A101",
+  "description": "Thảo luận và phân chia công việc"
+}
+
+### 2. Lấy danh sách lịch hẹn
+GET http://localhost:8080/api/appointments
